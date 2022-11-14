@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages", 
+  basePath: "/movieDeploy",    //nma github
+  assetPrefix: "/movieDeploy",   //nma github
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
