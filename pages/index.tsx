@@ -1,3 +1,4 @@
+import Banner from "./layouts/Banner";
 import Container from "./layouts/container";
 import Footer from "./layouts/Footer";
 import Header from "./layouts/Header";
@@ -8,7 +9,7 @@ export default function Home() {
     <div>
       <Header/>
       <Container>
-        Hello
+        <Banner/>
       </Container>
       <footer>
         <Footer/>
