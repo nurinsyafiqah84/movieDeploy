@@ -1,7 +1,8 @@
-const Footer = () => {
+import React from 'react';
+
+const Directory = () => {
     return (
-        <footer className="text-left p-8 text-white bg-darkBlue ">
-             <div className="md:flex md:justify-center flex items-end mb-6 md:mb-10 ">
+        <div className="md:flex md:justify-center flex items-end mb-6 md:mb-10 ">
                  {/*untuk 3 column*/}
                  <div className='mr-10'>
                      <a href='#' className='flex items-end mb-10'>
@@ -49,8 +50,7 @@ const Footer = () => {
                  </div>                        
                  
              </div>
-         </footer>
-     );
- };
- 
- export default Footer;
+    );
+};
+
+export default Directory;
