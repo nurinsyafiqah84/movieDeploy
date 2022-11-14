@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="text-left p-8 text-white bg-Rose-900 ">
+        <footer className="text-left p-8 text-white bg-darkBlue ">
              <div className="md:flex md:justify-center flex items-end mb-6 md:mb-10 ">
                  {/*untuk 3 column*/}
                  <div className='mr-10'>
