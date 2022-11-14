@@ -1,11 +1,10 @@
 import React from 'react';
-import Directory from '../../layouts/Directory';
 
-const Footer= () => {
+const Footer = () => {
     return (
-        <footer className='bg-darkBlue'>
+        <div>
             Hello
-        </footer >
+        </div>
     );
 };
 
