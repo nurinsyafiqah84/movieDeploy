@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/baseUi/Input/SearchInput.js", "pages/baseUi/Button/SearchButton.js", "pages/layouts/Banner.js"],
   "exclude": ["node_modules"]
 }
