@@ -4,7 +4,7 @@ import Directory from '../../layouts/Directory';
 const Footer= () => {
     return (
         <footer className='bg-darkBlue'>
-            <Directory/>
+            Hello
         </footer >
     );
 };
