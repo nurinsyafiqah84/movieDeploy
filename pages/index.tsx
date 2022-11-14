@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <Container>
-        Hello
-      </Container>
       <footer>
         <Footer/>
       </footer>

@@ -1,6 +1,3 @@
-import React from 'react';
-import NavBarList from './NavBarList';
-import { navItemsLeft, navItemsRight } from './navItems'; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 
 import {
