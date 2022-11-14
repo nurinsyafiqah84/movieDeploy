@@ -1,11 +1,14 @@
+import React from 'react';
+import NavBarList from './NavBarList';
+import { navItemsLeft, navItemsRight } from './navItems'; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 
 import {
     faSearch, 
     faPlus
-} from "@fortawesome/free-solid-svg-icons";
+  } from "@fortawesome/free-solid-svg-icons";
 
-const Header = () => {
+const NavBar = () => {
     return (
         <nav className="h-16 bg-darkBlue flex text-white font-semibold justify-between items-center gap max-w-[1300px] mx-auto  px-10">
             {/*<NavBarList items={navItemsLeft}/>
@@ -58,7 +61,7 @@ const Header = () => {
                 <a href=''><FontAwesomeIcon icon={faSearch} /></a>
             </div>
         </nav>
-    );
+    ); 
 };
 
-export default Header;
+export default NavBar;
