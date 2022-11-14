@@ -1,7 +1,7 @@
-import Banner from "./layouts/Banner";
+import Header from "./components/Header";
 import Container from "./layouts/container";
 import Footer from "./layouts/Footer";
-import Header from "./layouts/Header";
+
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Header/>
       <Container>
-        <Banner/>
+        Hello
       </Container>
       <footer>
         <Footer/>
