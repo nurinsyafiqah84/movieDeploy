@@ -1,4 +1,4 @@
-import Footer from "./layouts/Footer";
+import Footer from "./layouts/Directory";
 
 
 export default function Home() {
