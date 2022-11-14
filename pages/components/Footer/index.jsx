@@ -5,7 +5,7 @@ import Directory from '../../layouts/Directory';
 
 const Header = () => {
     return (
-        <header className='bg-darkBlue'>
+        <header className='bg-darkBlue text-white'>
             <Directory/>
         </header>
     );
