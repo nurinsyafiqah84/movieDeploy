@@ -6,7 +6,10 @@ const Banner = () => {
                     <h2 className='font-extrabold text-5xl'>Welcome.</h2>
                     <h3 className='font-semibold text-[2rem] leading-1'>Millions of movies, TV shows and people to discover. Explore now.</h3>
                 </div>
-                
+                <div className='relative '>
+                    <SearchInput ref={searchInputRef} onKeyDown={handleKeyDown}/>
+                    
+                </div>
             </div>
         </div>
     );
