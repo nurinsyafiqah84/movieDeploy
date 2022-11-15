@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <Footer/>
       <Container>
         <Banner/>
       </Container>
+      <Footer/>
     </div>
   )
 }
