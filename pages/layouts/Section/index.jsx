@@ -6,6 +6,7 @@ const Section = ({title, items}) => {
             <div>
                 <h2 className='font-semibold text-2xl'>{title}</h2>
                 <Switch items={items}/>
+                
             </div>
         </section>
     );
