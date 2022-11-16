@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MovieList from "./components/Movies/MovieList";
 import Container from "./layouts/Container";
+import Section from "./layouts/Section";
 
 export default function Home() {
   
@@ -13,6 +14,7 @@ export default function Home() {
         <Banner/>
         {/*another contoh example props
         <Section props="What's popular"/> */}
+        <Section title="Free To Watch"></Section>
         <MovieList/>
         
       </Container>
