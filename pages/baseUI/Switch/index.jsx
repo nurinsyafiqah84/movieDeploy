@@ -1,9 +1,7 @@
 import { useLayoutEffect, useRef, useState } from "react";
 
-const Switch = ({items, onToggle}) => {
+const Switch = ({items, onToggle}) => { 
     
-    
-
     const [isToggled, setToggle] = useState(false);
     const [item1Width, setItem1Width] = useState();
     const [item2Width, setItem2Width] = useState();
