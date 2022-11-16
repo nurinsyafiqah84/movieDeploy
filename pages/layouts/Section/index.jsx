@@ -1,7 +1,7 @@
 import Switch from "../../baseUI/Switch";
 
 //boleh display satu2 
-//const Section = ({title, items, onToggle})
+//const Section = ({title, children, items, onToggle})
 const Section = ({title, children, ...props}) => { 
     return (
         <section className='pt-[30px]'>

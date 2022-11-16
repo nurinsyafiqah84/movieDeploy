@@ -11,6 +11,11 @@ export default function Home() {
   }
   return (
     <div>
+      <head>
+        <title>The Movie Database (TMDB)</title>
+        <meta name="description"></meta>
+        <link rel="icon" href="https://www.themoviedb.org/assets/2/favicon-32x32-543a21832c8931d3494a68881f6afcafc58e96c5d324345377f3197a37b367b5.png"/>
+      </head>
       <Header/>
       <Container>
         <Banner/>
