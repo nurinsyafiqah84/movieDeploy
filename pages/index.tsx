@@ -5,8 +5,10 @@ import MovieList from "./components/Movies/MovieList";
 import Container from "./layouts/Container";
 import Section from "./layouts/Section";
 
-export default function Home() {
-  
+export default function Home() { 
+  const handleToggledValue = (selectedValue: any) =>{
+    console.log(selectedValue)
+  }
   return (
     <div>
       <Header/>
@@ -14,7 +16,7 @@ export default function Home() {
         <Banner/>
         {/*another contoh example props
         <Section props="What's popular"/> */}
-        <Section title="Free To Watch" items={["Movies", "TV Shows"]}></Section>
+        <Section title="Free To Watch" items={["Movies", "TV Shows"]} onToggle={handleToggledValue}></Section>
         <MovieList/>
         
       </Container>

@@ -1,10 +1,8 @@
 import { useLayoutEffect, useRef, useState } from "react";
 
-const Switch = ({items}) => {
+const Switch = ({items, onToggle}) => {
     
-    if (Array.isArray(items)){
-        console.log(items[0])
-    }
+    
 
     const [isToggled, setToggle] = useState(false);
     const [item1Width, setItem1Width] = useState();
@@ -18,8 +16,19 @@ const Switch = ({items}) => {
 
     useLayoutEffect(() =>{
         setItem1Width(item1Ref.current.offsetWidth)
-        setItem2Width(item2Ref.current.offsetWidth) //done
+        setItem2Width(item2Ref.current.offsetWidth) 
     },[])
+
+    //onToggle(isToggled?items[1]:items[0]);
+    if (Array.isArray(items)){
+        console.log(items[0])
+        if(isToggled){
+            onToggle(items[1])
+        }
+        else{
+            onToggle(items[0])
+        }
+    }
 
     const activeTextColor = "bg-clip-text text-transparent text-green bg-gradient-to-r from-[#c0fecf] to-[#1ed5a9]"
 
