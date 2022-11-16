@@ -20,8 +20,9 @@ const Switch = ({items, onToggle}) => {
     },[])
 
     //onToggle(isToggled?items[1]:items[0]);
+    //kena declare items mcm ni dulu
     if (Array.isArray(items)){
-        console.log(items[0])
+        //console.log(items[0])
         if(isToggled){
             onToggle(items[1])
         }
@@ -34,8 +35,9 @@ const Switch = ({items, onToggle}) => {
 
     return (
         <div className="hover: cursor-pointer h-8 border-solid border-darkBlue rounded-[30px] border-[1px] font-semibold flex items-center relative">
+            {/* cara declare properties arr utk deploy*/}
             {/*{items?.[0]}*/}
-            <div ref={item1Ref} onClick={handleToggle.bind(null, false)} className={`py-1 px-5 h-8 rounded-[30px] ${isToggled || activeTextColor}`}>{items?.[0]}</div>
+            <div ref={item1Ref} onClick={handleToggle.bind(null, false)} className={`py-1 px-5 h-8 rounded-[30px] ${isToggled || activeTextColor}`}>{items?.[0]}</div>  
             <div ref={item2Ref} onClick={() => {handleToggle(true)}} className={`py-1 px-5 h-8 rounded-[30px] ${isToggled && activeTextColor}`}>{items?.[1]}</div>
             <div className="h-8 w-20 bg-darkBlue rounded-[30px] absolute z-[-1] transition-all duration-150 ease-in"style={
             isToggled?{
