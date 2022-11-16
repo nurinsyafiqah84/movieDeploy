@@ -14,7 +14,7 @@ export default function Home() {
         <Banner/>
         {/*another contoh example props
         <Section props="What's popular"/> */}
-        <Section title="Free To Watch"></Section>
+        <Section title="Free To Watch" items={["Movies"]}></Section>
         <MovieList/>
         
       </Container>
