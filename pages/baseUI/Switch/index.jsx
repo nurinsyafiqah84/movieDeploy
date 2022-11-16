@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Switch = () => {
+const Switch = ({items}) => {
     return (
         <div>
-            Hello
+            {items}
         </div>
     );
 };
