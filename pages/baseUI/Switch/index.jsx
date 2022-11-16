@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Switch = ({items}) => {
     
     if (Array.isArray(items)){
@@ -8,8 +6,7 @@ const Switch = ({items}) => {
 
     return (
         <div>
-            {items}
-            
+            {items?.[0]}
         </div>
     );
 };
