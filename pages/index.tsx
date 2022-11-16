@@ -6,7 +6,7 @@ import Container from "./layouts/Container";
 import Section from "./layouts/Section";
 
 export default function Home() { 
-  const handleToggledValue = (selectedValue: any) =>{
+  const handleToggledValue = (selectedValue: any) =>{ 
     console.log(selectedValue)
   }
   return (
@@ -16,8 +16,10 @@ export default function Home() {
         <Banner/>
         {/*another contoh example props
         <Section props="What's popular"/> */}
-        <Section title="Free To Watch" items={["Movies", "TV Shows"]} onToggle={handleToggledValue}></Section>
-        <MovieList/>
+        <Section title="Free To Watch" items={["Movies", "TV Shows"]} onToggle={handleToggledValue}>
+          <MovieList/>
+
+        </Section>
         
       </Container>
       <Footer/>
